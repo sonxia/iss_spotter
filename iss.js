@@ -92,7 +92,7 @@ module.exports = { fetchCoordsByIP };
     }
 
     const passes = JSON.parse(body).response;
-    callback(null, passes);
+    callback(null, passes);  //doesnt work when switched ?? wwhyyy??
   });
 };
 
